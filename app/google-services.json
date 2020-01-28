@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "876968362629",
+    "firebase_url": "https://todo-list-2d2dc.firebaseio.com",
+    "project_id": "todo-list-2d2dc",
+    "storage_bucket": "todo-list-2d2dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876968362629:android:73cf9500a51f12024c1fec",
+        "android_client_info": {
+          "package_name": "nhs75007.nagoya.ac.todo_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876968362629-i35ntc6tgrsb637u93v5qjc8h0239qd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuTNF2BS6xbmzuu4Yl0sXt7wC_o97KD9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876968362629-i35ntc6tgrsb637u93v5qjc8h0239qd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
