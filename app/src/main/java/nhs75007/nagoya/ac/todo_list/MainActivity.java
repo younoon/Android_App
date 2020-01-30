@@ -8,8 +8,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,10 +26,14 @@ public class MainActivity extends AppCompatActivity {
     public FirebaseAuth mAuth;
     private static final String TAG = "EmailPassword";
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         emailFormEditText = (EditText) findViewById(R.id.email_log_in_edit_text);
         passwordFormEditText = (EditText)findViewById(R.id.password_log_in_edit_text);
@@ -114,4 +121,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+
+
 }
